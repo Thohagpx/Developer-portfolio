@@ -1,54 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web developer portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:ital,wght@0,800;1,600&display=swap" rel="stylesheet"> -->
+
     <link rel="stylesheet" href="styles/portfolio.css">
 </head>
+
 <body>
     <header class="header">
-<nav> 
-    <h2 class="nav-title">Ma<span class="text-primary">r</span>y</h2>
-    <ul>
-     <li><a href="">portfolio</a></li>
-     <li><a href="">Blog</a> </li>
-     <li><button class="btn-primary">Hire Me</button></li>
-    </ul>
-</nav>
-<div class="banner">
-<div class="banner-content">
-    <h3 class="banner-greting"> HI, I am </h3>
-    <h1 class="banner-title" >Mary hardy</h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sed vel quisquam soluta nesciunt cumque rerum, neque harum, perspiciatis tenetur laborum pariatur, rem delectus fugiat commodi ullam quae amet ipsa.
-    </p>
-    <button class="btn-primary">download cv</button>
-    <button class="btn-primary" >contact</button>
-</div>
-<img class="profile-picture " src="images/hardy.png" alt="">
+        <nav>
+            <h2 class="nav-title">Ma<span class="text-primary">r</span>y</h2>
+            <ul>
+                <li><a href="">portfolio</a></li>
+                <li><a href="">Blog</a> </li>
+                <li><button class="btn-primary">Hire Me</button></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h3 class="banner-greting"> HI, I am </h3>
+                <h1 class="banner-title">Mary hardy</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit <br>
+                    Optio sed vel quisquam soluta nesciunt
+                    cumque rerum, neque harum,
+                    <br> perspiciatis tenetur laborum pariatur,
+                    <br> rem delectus fugiat commodi ullam
+                    quae amet ipsa.
+                </p>
+                <button class="btn-primary">download cv</button>
+                <button class="btn-primary">contact</button>
+            </div>
+            <img class="profile-picture " src="images/hardy.png" alt="">
 
-</div>
+        </div>
 
     </header>
-    <main>
- <section class="about">
-    <h3 class="section title">About me</h3>
-    <p class="section description">
-       <small> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto omnis dignissimos aperiam. Quia cum ex maiores quaerat, dolorem aperiam minima magnam sed voluptatum at officiis alias iste expedita vitae harum.</small>
-    </p>
+    <main class="main">
+        <section class="about">
+            <h3 class="section-title">About me</h3>
+            <p class="section-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto omnis dignissimos aperiam.
+                Quia cum ex maiores quaerat, dolorem aperiam minima magnam sed voluptatum at officiis alias iste
+                expedita vitae harum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus
+                repellendus excepturi molestias eaque, nobis cumque perferendis facere, dolore atque maiores
+                voluptatum porro. Aspernatur, distinctio deserunt sed debitis ex facere dolorem.
+
+            </p>
+            <!-- about-info-title-description -->
+            <div class="about-info-container">
+                <!-- .about-info*4>h4.info-title+p.info-description -->
+
+                <div class="about-info">
+                    <h4 class="info-title">Name:</h4>
+                    <p class="info-descripton">Mary Hardy</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">Email:</h4>
+                    <p class="info-descripton">info@hmail.com</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">date of birth:</h4>
+                    <p class="info-descripton">11 November 1987</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">From:</h4>
+                    <p class="info-descripton">Los Angeles,USA</p>
+                </div>
 
 
- </section>
+
+            </div>
+
+
+
+
+
+        </section>
+        <!-- what i do section start -->
+        <section>
+            <h3 class="section-title">What i do</h3>
+            <p id="what-i-do-description" class="section-description">Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Veritatis eligendi inventore molestias rerum vero ex labore vel quae dicta
+                repellendus!</p>
+
+            <div class="skillis-container">
+                <!-- .skill*4>img+.skill-title+p.skill-description -->
+
+
+                <div class="skill">
+                    <img src="images/icons/js.png" alt="">
+                    <div class="skill-title">Vanilla javascript</div>
+                    <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+                        repudiandae cum. Dicta officiis obcaecati modi aperiam natus nemo ab, vero nobis nulla dolorum
+                        totam asperiores ex? Dolor facere delectus perferendis?</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/react.png" alt="">
+                    <div class="skill-title">React</div>
+                    <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                        corrupti delectus fugit quaerat, dolorem consectetur ullam ipsa omnis dicta veniam, deleniti
+                        asperiores eaque veritatis quos quo vitae eligendi illo. Atque.</p>
+                </div>
+
+                <div class="skill">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <div class="skill-title">Node.js</div>
+                    <p class="skill-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi esse
+                        explicabo repellendus tenetur aperiam eius ullam aut placeat corporis officia amet numquam ad
+                        tempore optio vel, delectus fugit, aliquid unde.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/mongo.png" alt="">
+                    <div class="skill-title">Mongo</div>
+
+                    <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero natus
+                        illo ratione dolores hic enim, ab molestiae vitae minus voluptates. Blanditiis alias incidunt
+                        sapiente magni ipsa fuga nihil voluptas facilis!</p>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Resume section -->
+        <section>
+
+            <h3 class="section-title">A summary of my Resume</h3>
+            <div class="resume-container">
+                <!-- <div class="resume-container">
+     <div class="resume-colum"></div>
+     <div class="resume-colum"></div>
+     </div> -->
+                <div class="resume-colum">
+                    <h3 class="resume-colum-title">My Education</h3>
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">Masters in computer pograming</h2>
+                        <h3 class="resume item-info">habard university</h3>
+                        <p class="resume-item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Odio, nemo! Numquam sed aperiam, eius fugiat perferendis quas maiores! Cum, nam.</p>
+                    </div>
+                    <hr>
+
+                    <div class="resume-item">
+                        <h2 class="resume-item-title"></h2>
+                        <h3 class="resume item-info"></h3>
+                        <p class="resume-item-description"></p>
+                    </div>
+                    <hr>
+
+                    <div class="resume-item">
+                        <h2 class="resume-item-title"></h2>
+                        <h3 class="resume item-info"></h3>
+                        <p class="resume-item-description"></p>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+                <div class="resume-colum">
+                    <h3 class="resume-colum-title">My experience</h3>
+                </div>
+
+            </div>
+            <div class="download-cv">
+                <button class="btn-primary">download cv</button>
+            </div>
+
+        </section>
+
     </main>
-    
-    <footer>
+
+    <footer class="footer">
+        <div class="footer-colom">
+            <h3 class="section-title">Lets contact</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Tempore id qui <br>
+                magni. Laborum rerum pariatur error cumque facilis impedit nisi.</p>
+
+            <div class="social-links">
+
+                <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                <a href=""><img src="images/icons/insta.png" alt=""></a>
+
+                <a href=""><img src="images/icons/twitter.png" alt=""></a>
+
+
+
+            </div>
+        </div>
+        <div class="footer-colom">
+            <h3 class="section-title">lets messege me</h3>
+             
+            <form class="contact" action="">
+               <input type="text" placeholder="your name"> 
+               <input type="email" placeholder="your email"
+               id="">
+               <textarea name="messege" id="" placeholder="messege" cols="30" rows="10"></textarea>
+               <input class="btn-primary"  type="submit" value="submit">
+
+            </form>
+
+        </div>
 
     </footer>
 
-    
+
 </body>
+
 </html>
